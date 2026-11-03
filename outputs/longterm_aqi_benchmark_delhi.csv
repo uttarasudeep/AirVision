@@ -1,0 +1,4 @@
+Model,MAE,RMSE,MAPE
+Seasonal Naive (12M Baseline),62.533,70.542,50.09%
+Holt-Winters Exponential Smoothing,50.397,62.085,39.54%
+"SARIMA(1, 1, 1)x(1, 0, 0, 12)",60.713,64.017,47.23%

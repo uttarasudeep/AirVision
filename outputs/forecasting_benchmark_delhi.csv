@@ -1,0 +1,4 @@
+Model,MAE,RMSE,MAPE
+Moving Average (7-Day),9.013,11.12,19.21%
+Holt's Exponential Smoothing,12.131,15.638,22.63%
+"ARIMA(1, 1, 1)",9.738,11.37,22.11%

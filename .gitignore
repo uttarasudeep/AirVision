@@ -1,0 +1,26 @@
+# Python Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Datasets exceeding GitHub's 100MB file limit
+# station_hour.csv is ~220MB and will cause GitHub push to be rejected
+station_hour.csv
+city_hour.csv
+
+# OS and IDE temporary files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.log
+
+# Streamlit run cache
+.streamlit/cache/
